@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 80px;
+}
+
+.image-container {
+  margin: 30px auto;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.3s;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+.button-container button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#tampil { background-color: #3498db; }
+#ganti { background-color: #2ecc71; }
+#hapus { background-color: #e74c3c; }
+
+button:hover {
+  opacity: 0.8;
+}
